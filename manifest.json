@@ -1,0 +1,30 @@
+{
+  "id": "election-integrity-monitor",
+  "title": "Election Integrity Monitor App",
+  "industry": "Government & Public Sector",
+  "industryId": "government-public-sector",
+  "specialization": "Election Integrity Monitor",
+  "sourcePlatformGroup": "government-civic-platform",
+  "sources": [
+    "AICitizenchatbot",
+    "AICustoms",
+    "AIElectionIntegrityMonitor",
+    "AIElectionPollWorkerOps"
+  ],
+  "featureCount": 191,
+  "candidateFeatureCount": 275,
+  "eliminatedSimilarFeatures": 84,
+  "evidenceCount": 453,
+  "aiPageCount": 19,
+  "sourceAIPageCount": 19,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 25,
+    "seededRows": 375
+  },
+  "visibleFeatureCount": 49,
+  "featureVisibilityMode": "seeded-or-ai"
+}
