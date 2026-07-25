@@ -1,5 +1,186 @@
 [
   {
+    "name": "Accessibility Audits",
+    "canonicalKey": "accessibility audit",
+    "aliases": [
+      "Accessibility Audits Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AccessibilityAuditsPage",
+      "/accessibility-audits"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:40",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/App.js:102",
+        "route": "/accessibility-audits",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/Dashboard.js:20",
+        "route": "/accessibility-audits",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AccessibilityAuditsPage.js",
+        "route": "/AccessibilityAuditsPage",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Accessibility Gap Analyze",
+    "canonicalKey": "accessibility analyze gap",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/accessibility-gap-analyze",
+      "/ai/accessibility-gap-analyze"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "backend/routes/ai.js:396",
+        "route": "/accessibility-gap-analyze",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/App.js:115",
+        "route": "/ai/accessibility-gap-analyze",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/Dashboard.js:33",
+        "route": "/ai/accessibility-gap-analyze",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Actions",
+    "canonicalKey": "action",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/actions",
+      "/hazards/:id/actions"
+    ],
+    "sourceProjects": [
+      "AICitizenchatbot",
+      "AIConstructionSafetyHub"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor",
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionSafetyHub",
+        "path": "backend/routes/governedSafety.js:51",
+        "route": "/hazards/:id/actions",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICitizenchatbot",
+        "path": "backend/routes/governedService.js:89",
+        "route": "/actions",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Admin Analytics",
+    "canonicalKey": "admin analytic",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "admin-analytics"
+    ],
+    "sourceProjects": [
+      "AICitizenchatbot"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICitizenchatbot",
+        "path": "frontend/src/App.js:70",
+        "route": "admin-analytics",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Agentic311 Concierge That Completes Service Reque Page",
+    "canonicalKey": "agentic311 complete concierge reque service that",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Agentic311ConciergeThatCompletesServiceRequePage"
+    ],
+    "sourceProjects": [
+      "AICitizenchatbot"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICitizenchatbot",
+        "path": "frontend/src/pages/Agentic311ConciergeThatCompletesServiceRequePage.jsx",
+        "route": "/Agentic311ConciergeThatCompletesServiceRequePage",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
     "name": "AI Accessibility Gap Analyze",
     "canonicalKey": "accessibility ai analyze gap",
     "aliases": [
@@ -36,10 +217,10 @@
     ]
   },
   {
-    "name": "AI Approvals",
+    "name": "AI Approvals Page",
     "canonicalKey": "ai approval",
     "aliases": [
-      "AI Approvals Page"
+      "AI Approvals"
     ],
     "kinds": [
       "page"
@@ -73,7 +254,7 @@
   },
   {
     "name": "AI Approvals Sign Off",
-    "canonicalKey": "ai approvals off sign",
+    "canonicalKey": "ai approval off sign",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -553,7 +734,7 @@
   },
   {
     "name": "AI Rules Translate",
-    "canonicalKey": "ai rules translate",
+    "canonicalKey": "ai rule translate",
     "aliases": [
       "AI Rules Translate Page"
     ],
@@ -782,153 +963,8 @@
     ]
   },
   {
-    "name": "Accessibility Audits",
-    "canonicalKey": "accessibility audit",
-    "aliases": [
-      "Accessibility Audits Page"
-    ],
-    "kinds": [
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/AccessibilityAuditsPage",
-      "/accessibility-audits"
-    ],
-    "sourceProjects": [
-      "AIElectionPollWorkerOps"
-    ],
-    "consolidatedFromApps": [
-      "government-public-sector/election-integrity-monitor"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:40",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/App.js:102",
-        "route": "/accessibility-audits",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/pages/Dashboard.js:20",
-        "route": "/accessibility-audits",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/pages/AccessibilityAuditsPage.js",
-        "route": "/AccessibilityAuditsPage",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      }
-    ]
-  },
-  {
-    "name": "Accessibility Gap Analyze",
-    "canonicalKey": "accessibility analyze gap",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/accessibility-gap-analyze",
-      "/ai/accessibility-gap-analyze"
-    ],
-    "sourceProjects": [
-      "AIElectionPollWorkerOps"
-    ],
-    "consolidatedFromApps": [
-      "government-public-sector/election-integrity-monitor"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "backend/routes/ai.js:396",
-        "route": "/accessibility-gap-analyze",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/App.js:115",
-        "route": "/ai/accessibility-gap-analyze",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/pages/Dashboard.js:33",
-        "route": "/ai/accessibility-gap-analyze",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      }
-    ]
-  },
-  {
-    "name": "Admin Analytics",
-    "canonicalKey": "admin analytic",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "admin-analytics"
-    ],
-    "sourceProjects": [
-      "AICitizenchatbot"
-    ],
-    "consolidatedFromApps": [
-      "government-public-sector/election-integrity-monitor"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICitizenchatbot",
-        "path": "frontend/src/App.js:70",
-        "route": "admin-analytics",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      }
-    ]
-  },
-  {
-    "name": "Agentic311 Concierge That Completes Service Reque Page",
-    "canonicalKey": "agentic311 completes concierge reque service that",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/Agentic311ConciergeThatCompletesServiceRequePage"
-    ],
-    "sourceProjects": [
-      "AICitizenchatbot"
-    ],
-    "consolidatedFromApps": [
-      "government-public-sector/election-integrity-monitor"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICitizenchatbot",
-        "path": "frontend/src/pages/Agentic311ConciergeThatCompletesServiceRequePage.jsx",
-        "route": "/Agentic311ConciergeThatCompletesServiceRequePage",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      }
-    ]
-  },
-  {
     "name": "Announcements Csv",
-    "canonicalKey": "announcements csv",
+    "canonicalKey": "announcement csv",
     "aliases": [],
     "kinds": [
       "api"
@@ -948,6 +984,44 @@
         "sourceProject": "AICitizenchatbot",
         "path": "backend/routes/exports.js:56",
         "route": "/announcements.csv",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Answers",
+    "canonicalKey": "answer",
+    "aliases": [
+      "Answer"
+    ],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/answer",
+      "/answers"
+    ],
+    "sourceProjects": [
+      "AIBuildingSafetyInspector",
+      "AICitizenchatbot"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor",
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/safetyRag.js:180",
+        "route": "/answer",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICitizenchatbot",
+        "path": "backend/routes/governedService.js:73",
+        "route": "/answers",
         "originApp": "government-public-sector/election-integrity-monitor"
       }
     ]
@@ -974,7 +1048,7 @@
       {
         "kind": "api",
         "sourceProject": "AICitizenchatbot",
-        "path": "backend/routes/chatbotNew.js:226",
+        "path": "backend/routes/chatbotNew.js:229",
         "route": "/appointment-helper",
         "originApp": "government-public-sector/election-integrity-monitor"
       },
@@ -995,15 +1069,20 @@
       "api"
     ],
     "routes": [
-      "/:id/approve"
+      "/:id/approve",
+      "/actions/:actionId/approve",
+      "/evaluations/:id/approve"
     ],
     "sourceProjects": [
+      "AICitizenchatbot",
       "AIDisasterResponseCoordinator",
-      "AIElectionPollWorkerOps"
+      "AIElectionPollWorkerOps",
+      "counter-swarm-defense"
     ],
     "consolidatedFromApps": [
       "government-public-sector/disaster-response-coordinator",
-      "government-public-sector/election-integrity-monitor"
+      "government-public-sector/election-integrity-monitor",
+      "government-public-sector/inparkdigitalassistant"
     ],
     "evidence": [
       {
@@ -1015,10 +1094,24 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AICitizenchatbot",
+        "path": "backend/routes/governedService.js:98",
+        "route": "/actions/:actionId/approve",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "backend/routes/aiApprovals.js:70",
         "route": "/:id/approve",
         "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "counter-swarm-defense",
+        "path": "backend/routes/triage.js:282",
+        "route": "/evaluations/:id/approve",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
   },
@@ -1058,27 +1151,37 @@
     ]
   },
   {
-    "name": "Assign",
-    "canonicalKey": "assign",
+    "name": "Assignments",
+    "canonicalKey": "assignment",
     "aliases": [],
     "kinds": [
       "api"
     ],
     "routes": [
-      "/assign"
+      "/assignments",
+      "/workspaces/:workspaceId/incidents/:incidentId/assignments"
     ],
     "sourceProjects": [
-      "AIElectionIntegrityMonitor"
+      "AIDisasterResponseCoordinator",
+      "AIElectionPollWorkerOps"
     ],
     "consolidatedFromApps": [
+      "government-public-sector/disaster-response-coordinator",
       "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIElectionIntegrityMonitor",
-        "path": "server/routes/ballotCureQueue.js:22",
-        "route": "/assign",
+        "sourceProject": "AIDisasterResponseCoordinator",
+        "path": "backend/src/routes/coordinationRoutes.js:96",
+        "route": "/workspaces/:workspaceId/incidents/:incidentId/assignments",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "backend/routes/operationsWorkflow.js:9",
+        "route": "/assignments",
         "originApp": "government-public-sector/election-integrity-monitor"
       }
     ]
@@ -1635,7 +1738,7 @@
   },
   {
     "name": "Cf Sanctions Screening Agent",
-    "canonicalKey": "agent cf sanctions screening",
+    "canonicalKey": "agent cf sanction screening",
     "aliases": [],
     "kinds": [
       "page"
@@ -1852,13 +1955,6 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "counter-swarm-defense",
-        "path": "backend/routes/threat-signatures.js:89",
-        "route": "/classify",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "page",
         "sourceProject": "AICustoms",
         "path": "client/src/App.jsx:65",
@@ -1878,6 +1974,13 @@
         "path": "src/routes/ai.js:59",
         "route": "/classify",
         "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "counter-swarm-defense",
+        "path": "backend/routes/threat-signatures.js:89",
+        "route": "/classify",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
   },
@@ -1903,7 +2006,7 @@
       {
         "kind": "api",
         "sourceProject": "AICitizenchatbot",
-        "path": "backend/routes/chatbotNew.js:159",
+        "path": "backend/routes/chatbotNew.js:162",
         "route": "/complaint-classifier",
         "originApp": "government-public-sector/election-integrity-monitor"
       },
@@ -1924,15 +2027,25 @@
       "api"
     ],
     "routes": [
-      "/:phase/complete"
+      "/:phase/complete",
+      "/actions/:id/complete"
     ],
     "sourceProjects": [
+      "AIConstructionSafetyHub",
       "AIElectionIntegrityMonitor"
     ],
     "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor",
       "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionSafetyHub",
+        "path": "backend/routes/governedSafety.js:75",
+        "route": "/actions/:id/complete",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
       {
         "kind": "api",
         "sourceProject": "AIElectionIntegrityMonitor",
@@ -1956,15 +2069,11 @@
       "AIBuildingSafetyInspector",
       "AICitizenchatbot",
       "AIConstructionSafetyHub",
-      "AIElectionIntegrityMonitor",
-      "AIElectionPollWorkerOps",
-      "AIInparkdigitalassistant",
-      "AISmartCityTrafficSignal"
+      "AIElectionPollWorkerOps"
     ],
     "consolidatedFromApps": [
       "government-public-sector/construction-wearable-safety-monitor",
-      "government-public-sector/election-integrity-monitor",
-      "government-public-sector/inparkdigitalassistant"
+      "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
       {
@@ -2004,36 +2113,8 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIInparkdigitalassistant",
-        "path": "backend/src/routes/ai.js:138",
-        "route": "/api/v1/chat/completions",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "backend/services/ai.js:63",
-        "route": "/api/v1/chat/completions",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AICitizenchatbot",
         "path": "backend/routes/aiBacklog.js:29",
-        "route": "/api/v1/chat/completions",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICitizenchatbot",
-        "path": "backend/routes/chatbot.js:99",
-        "route": "/api/v1/chat/completions",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICitizenchatbot",
-        "path": "backend/routes/chatbotNew.js:28",
         "route": "/api/v1/chat/completions",
         "originApp": "government-public-sector/election-integrity-monitor"
       },
@@ -2062,13 +2143,6 @@
         "kind": "api",
         "sourceProject": "AICitizenchatbot",
         "path": "backend/routes/ordinanceRag.js:41",
-        "route": "/api/v1/chat/completions",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIElectionIntegrityMonitor",
-        "path": "server/services/openRouterService.js:22",
         "route": "/api/v1/chat/completions",
         "originApp": "government-public-sector/election-integrity-monitor"
       },
@@ -2274,7 +2348,7 @@
   },
   {
     "name": "Documents Lacks AI Declaration Auto Generation",
-    "canonicalKey": "ai auto declaration documents generation lacks",
+    "canonicalKey": "ai auto declaration document generation lack",
     "aliases": [],
     "kinds": [
       "page"
@@ -2300,7 +2374,7 @@
   },
   {
     "name": "Duties Lacks AI Tariff Optimization Endpoint",
-    "canonicalKey": "ai duties endpoint lacks optimization tariff",
+    "canonicalKey": "ai duty endpoint lack optimization tariff",
     "aliases": [],
     "kinds": [
       "page"
@@ -2444,42 +2518,6 @@
     ]
   },
   {
-    "name": "Escalate",
-    "canonicalKey": "escalate",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/escalate",
-      "/escalate"
-    ],
-    "sourceProjects": [
-      "AICitizenchatbot",
-      "AICrisisCommunicationAgent"
-    ],
-    "consolidatedFromApps": [
-      "government-public-sector/disaster-response-coordinator",
-      "government-public-sector/election-integrity-monitor"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AICrisisCommunicationAgent",
-        "path": "backend/src/routes/crisisIncidents.js:138",
-        "route": "/:id/escalate",
-        "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICitizenchatbot",
-        "path": "backend/routes/serviceSlaEscalation.js:15",
-        "route": "/escalate",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      }
-    ]
-  },
-  {
     "name": "Export",
     "canonicalKey": "export",
     "aliases": [
@@ -2524,20 +2562,6 @@
       },
       {
         "kind": "page",
-        "sourceProject": "counter-swarm-defense",
-        "path": "frontend/src/App.tsx:69",
-        "route": "/export",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "counter-swarm-defense",
-        "path": "frontend/src/pages/ExportPage.tsx",
-        "route": "/ExportPage",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AICitizenchatbot",
         "path": "frontend/src/App.js:72",
         "route": "exports",
@@ -2549,6 +2573,20 @@
         "path": "src/routes/compliance.js:34",
         "route": "/export",
         "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "counter-swarm-defense",
+        "path": "frontend/src/App.tsx:66",
+        "route": "/export",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "counter-swarm-defense",
+        "path": "frontend/src/pages/ExportPage.tsx",
+        "route": "/ExportPage",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
   },
@@ -2632,7 +2670,7 @@
   },
   {
     "name": "Frontend Pages Folder Is Empty No Spa Ui Shipped Page",
-    "canonicalKey": "empty folder frontend is no pages shipped spa ui",
+    "canonicalKey": "empty folder frontend is no page shipped spa ui",
     "aliases": [],
     "kinds": [
       "page"
@@ -2719,7 +2757,7 @@
   },
   {
     "name": "Gap Documents Lacks AI Declaration Auto Generation",
-    "canonicalKey": "ai auto declaration documents gap generation lacks",
+    "canonicalKey": "ai auto declaration document gap generation lack",
     "aliases": [],
     "kinds": [
       "page"
@@ -2745,7 +2783,7 @@
   },
   {
     "name": "Gap Duties Lacks AI Tariff Optimization Endpoint",
-    "canonicalKey": "ai duties endpoint gap lacks optimization tariff",
+    "canonicalKey": "ai duty endpoint gap lack optimization tariff",
     "aliases": [],
     "kinds": [
       "page"
@@ -3057,7 +3095,7 @@
   },
   {
     "name": "Gap No Webhooks For Carrier Or Government API Pushes",
-    "canonicalKey": "api carrier for gap government no or pushe webhooks",
+    "canonicalKey": "api carrier for gap government no or pushe webhook",
     "aliases": [],
     "kinds": [
       "page"
@@ -3083,7 +3121,7 @@
   },
   {
     "name": "Gap No Webhooks No Sos Push Delivery",
-    "canonicalKey": "delivery gap no push sos webhooks",
+    "canonicalKey": "delivery gap no push sos webhook",
     "aliases": [],
     "kinds": [
       "api"
@@ -3109,7 +3147,7 @@
   },
   {
     "name": "Gap Sanctions Lacks AI Risk Screening Agent",
-    "canonicalKey": "agent ai gap lacks risk sanctions screening",
+    "canonicalKey": "agent ai gap lack risk sanction screening",
     "aliases": [],
     "kinds": [
       "page"
@@ -3135,7 +3173,7 @@
   },
   {
     "name": "Gap Shipments Lacks AI Delay Prediction",
-    "canonicalKey": "ai delay gap lacks prediction shipments",
+    "canonicalKey": "ai delay gap lack prediction shipment",
     "aliases": [],
     "kinds": [
       "page"
@@ -3161,7 +3199,7 @@
   },
   {
     "name": "Gap0 Mounted AI Endpoints In Chatbot Js Chatbotnew Js Page",
-    "canonicalKey": "ai chatbot chatbotnew endpoints gap0 in js mounted",
+    "canonicalKey": "ai chatbot chatbotnew endpoint gap0 in js mounted",
     "aliases": [],
     "kinds": [
       "page"
@@ -3309,6 +3347,237 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/agenticSafetyInspector.js:97",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/consultancyWhiteLabel.js:97",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_frontend_pages_folder_is_empty_no_spa_ui_shipped.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_no_ai_checklist_generator_from_local_building_code.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_no_ai_training_content_generator_from_incidents.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_no_direct_gc_platform_api_client_procore_plangrid.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_no_drone_footage_inspection_ingestion.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_no_mobile_offline_mode_for_inspectors.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_no_payroll_integrated_certification_expiry_alerts.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_no_qr_code_site_asset_tagging.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_no_video_cctv_stream_analytics_only_photo_analysis.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/gap_notification_routes_exist_but_no_sms_push_delivery.js:132",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/oshaCodeRag.js:97",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/wearableSafetyStream.js:97",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/server.js:58",
+        "route": "/api/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionSafetyHub",
+        "path": "backend/server.js:29",
+        "route": "/api/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/autonomousAudit.js:94",
+        "route": "/autonomous-audit/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/bbsCoaching.js:94",
+        "route": "/bbs-coaching/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/cohortAnalysis.js:94",
+        "route": "/cohort-analysis/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/fatigueFusion.js:94",
+        "route": "/fatigue-fusion/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/gap_hazards_ppe_lack_ai_risk_scoring.js:112",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/gap_limited_integration_with_wearable_apis_apple_watch_fitbit_ou.js:112",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/gap_maintenance_lacks_predictive_maintenance_scheduling_ai.js:112",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/gap_no_geofenced_site_map_management.js:112",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/gap_no_insurance_liability_tracking_or_claims_module.js:112",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/gap_no_payment_billing_module.js:112",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/gap_no_webhooks_for_sensor_pushes.js:112",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/gap_proximity_falls_lack_dedicated_ai_endpoints_for_collision_pr.js:112",
+        "route": "/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/injuryPrevent.js:94",
+        "route": "/injury-prevent/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/insuranceOptimize.js:94",
+        "route": "/insurance-optimize/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/server.js:63",
+        "route": "/api/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFactoryFloorSafetyMonitor",
+        "path": "backend/src/server.js:28",
+        "route": "/api/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
+        "path": "backend/src/server.js:68",
+        "route": "/api/health",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AICrisisCommunicationAgent",
         "path": "backend/src/routes/agenticPlanning.js:83",
         "route": "/agentic-planning/health",
@@ -3394,7 +3663,7 @@
       {
         "kind": "api",
         "sourceProject": "AICrisisCommunicationAgent",
-        "path": "backend/src/server.js:31",
+        "path": "backend/src/server.js:32",
         "route": "/api/health",
         "originApp": "government-public-sector/disaster-response-coordinator"
       },
@@ -3513,303 +3782,44 @@
       {
         "kind": "api",
         "sourceProject": "AIDisasterResponseCoordinator",
-        "path": "backend/src/server.js:119",
+        "path": "backend/src/server.js:128",
         "route": "/api/health",
         "originApp": "government-public-sector/disaster-response-coordinator"
       },
       {
         "kind": "api",
         "sourceProject": "AIDisasterResponseCoordinator",
-        "path": "backend/src/server.js:72",
+        "path": "backend/src/server.js:80",
         "route": "/api/health",
         "originApp": "government-public-sector/disaster-response-coordinator"
       },
       {
         "kind": "api",
         "sourceProject": "AIPublicHealthEpidemiologyTracker",
-        "path": "backend/server.js:59",
+        "path": "backend/server.js:51",
+        "route": "/api/health",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicHealthEpidemiologyTracker",
+        "path": "backend/server.js:70",
         "route": "/api/health",
         "originApp": "government-public-sector/disaster-response-coordinator"
       },
       {
         "kind": "api",
         "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/index.js:44",
+        "path": "server/index.js:23",
         "route": "/api/health",
         "originApp": "government-public-sector/disaster-response-coordinator"
       },
       {
         "kind": "api",
         "sourceProject": "AIWildfirePredictionResponse",
-        "path": "backend/src/index.js:41",
+        "path": "backend/src/index.js:31",
         "route": "/api/health",
         "originApp": "government-public-sector/disaster-response-coordinator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/agenticSafetyInspector.js:97",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/consultancyWhiteLabel.js:97",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_frontend_pages_folder_is_empty_no_spa_ui_shipped.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_no_ai_checklist_generator_from_local_building_code.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_no_ai_training_content_generator_from_incidents.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_no_direct_gc_platform_api_client_procore_plangrid.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_no_drone_footage_inspection_ingestion.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_no_mobile_offline_mode_for_inspectors.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_no_payroll_integrated_certification_expiry_alerts.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_no_qr_code_site_asset_tagging.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_no_video_cctv_stream_analytics_only_photo_analysis.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/gap_notification_routes_exist_but_no_sms_push_delivery.js:132",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/oshaCodeRag.js:97",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/routes/wearableSafetyStream.js:97",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIBuildingSafetyInspector",
-        "path": "backend/server.js:53",
-        "route": "/api/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionSafetyHub",
-        "path": "backend/server.js:29",
-        "route": "/api/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/autonomousAudit.js:94",
-        "route": "/autonomous-audit/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/bbsCoaching.js:94",
-        "route": "/bbs-coaching/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/cohortAnalysis.js:94",
-        "route": "/cohort-analysis/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/fatigueFusion.js:94",
-        "route": "/fatigue-fusion/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/gap_hazards_ppe_lack_ai_risk_scoring.js:112",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/gap_limited_integration_with_wearable_apis_apple_watch_fitbit_ou.js:112",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/gap_maintenance_lacks_predictive_maintenance_scheduling_ai.js:112",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/gap_no_geofenced_site_map_management.js:112",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/gap_no_insurance_liability_tracking_or_claims_module.js:112",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/gap_no_payment_billing_module.js:112",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/gap_no_webhooks_for_sensor_pushes.js:112",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/gap_proximity_falls_lack_dedicated_ai_endpoints_for_collision_pr.js:112",
-        "route": "/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/injuryPrevent.js:94",
-        "route": "/injury-prevent/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/insuranceOptimize.js:94",
-        "route": "/insurance-optimize/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/server.js:61",
-        "route": "/api/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFactoryFloorSafetyMonitor",
-        "path": "backend/src/server.js:70",
-        "route": "/api/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
-        "path": "backend/src/server.js:65",
-        "route": "/api/health",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIInparkdigitalassistant",
-        "path": "backend/src/server.js:67",
-        "route": "/api/health",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPublicTransitOptimizer",
-        "path": "backend/src/server.js:55",
-        "route": "/api/health",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "backend/server.js:47",
-        "route": "/api/health",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIUrbanPlanningZoningSimulator",
-        "path": "server/index.js:60",
-        "route": "/api/health",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "counter-swarm-defense",
-        "path": "backend/server.js:49",
-        "route": "/api/health",
-        "originApp": "government-public-sector/inparkdigitalassistant"
       },
       {
         "kind": "api",
@@ -3919,7 +3929,7 @@
       {
         "kind": "api",
         "sourceProject": "AICitizenchatbot",
-        "path": "backend/server.js:48",
+        "path": "backend/server.js:52",
         "route": "/api/health",
         "originApp": "government-public-sector/election-integrity-monitor"
       },
@@ -4010,7 +4020,7 @@
       {
         "kind": "page",
         "sourceProject": "AICustoms",
-        "path": "src/routes/tariffOptimize.js:83",
+        "path": "src/routes/tariffOptimize.js:84",
         "route": "/tariff-optimize/health",
         "originApp": "government-public-sector/election-integrity-monitor"
       },
@@ -4020,6 +4030,48 @@
         "path": "backend/server.js:30",
         "route": "/api/health",
         "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInparkdigitalassistant",
+        "path": "backend/src/server.js:68",
+        "route": "/api/health",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicTransitOptimizer",
+        "path": "backend/src/server.js:44",
+        "route": "/api/health",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicTransitOptimizer",
+        "path": "backend/src/server.js:66",
+        "route": "/api/health",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "backend/server.js:47",
+        "route": "/api/health",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "server/index.js:1",
+        "route": "/api/health",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "counter-swarm-defense",
+        "path": "backend/server.js:81",
+        "route": "/api/health",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
   },
@@ -4054,32 +4106,6 @@
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/App.js:126",
         "route": "/ai/incident-report-draft",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      }
-    ]
-  },
-  {
-    "name": "Incident Reports Page",
-    "canonicalKey": "incident reports",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/IncidentReportsPage"
-    ],
-    "sourceProjects": [
-      "AIElectionPollWorkerOps"
-    ],
-    "consolidatedFromApps": [
-      "government-public-sector/election-integrity-monitor"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/pages/IncidentReportsPage.js",
-        "route": "/IncidentReportsPage",
         "originApp": "government-public-sector/election-integrity-monitor"
       }
     ]
@@ -4318,13 +4344,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "backend/routes/notifications.js:56",
-        "route": "/mark-all-read",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AICitizenchatbot",
         "path": "backend/routes/notifications.js:94",
         "route": "/mark-all-read",
@@ -4336,6 +4355,13 @@
         "path": "backend/routes/notifications.js:56",
         "route": "/mark-all-read",
         "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "backend/routes/notifications.js:56",
+        "route": "/mark-all-read",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
   },
@@ -4351,15 +4377,24 @@
       "/me"
     ],
     "sourceProjects": [
+      "AIBuildingSafetyInspector",
+      "AICitizenchatbot",
       "AIConstructionSafetyHub",
       "AIConstructionWearableSafetyMonitor",
+      "AICrisisCommunicationAgent",
       "AICustoms",
+      "AIDisasterResponseCoordinator",
       "AIElectionIntegrityMonitor",
       "AIElectionPollWorkerOps",
       "AIFactoryFloorSafetyMonitor",
+      "AIInparkdigitalassistant",
+      "AIPersonalSafetyLoneWorkerMonitor",
+      "AIPublicHealthEpidemiologyTracker",
       "AIPublicTransitOptimizer",
       "AISchoolSafetyThreatAssessment",
       "AISmartCityTrafficSignal",
+      "AIUrbanPlanningZoningSimulator",
+      "AIWildfirePredictionResponse",
       "counter-swarm-defense"
     ],
     "consolidatedFromApps": [
@@ -4371,22 +4406,22 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AISchoolSafetyThreatAssessment",
-        "path": "server/routes/auth.js:70",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/auth.js:44",
         "route": "/me",
-        "originApp": "government-public-sector/disaster-response-coordinator"
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
       },
       {
         "kind": "api",
         "sourceProject": "AIConstructionSafetyHub",
-        "path": "backend/routes/auth.js:56",
+        "path": "backend/routes/auth.js:45",
         "route": "/me",
         "originApp": "government-public-sector/construction-wearable-safety-monitor"
       },
       {
         "kind": "api",
         "sourceProject": "AIConstructionWearableSafetyMonitor",
-        "path": "backend/routes/auth.js:42",
+        "path": "backend/routes/auth.js:43",
         "route": "/me",
         "originApp": "government-public-sector/construction-wearable-safety-monitor"
       },
@@ -4399,24 +4434,52 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIPublicTransitOptimizer",
-        "path": "backend/src/routes/auth.js:30",
+        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
+        "path": "backend/src/routes/auth.js:86",
         "route": "/me",
-        "originApp": "government-public-sector/inparkdigitalassistant"
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
       },
       {
         "kind": "api",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "backend/routes/auth.js:67",
+        "sourceProject": "AICrisisCommunicationAgent",
+        "path": "backend/src/routes/auth.js:50",
         "route": "/me",
-        "originApp": "government-public-sector/inparkdigitalassistant"
+        "originApp": "government-public-sector/disaster-response-coordinator"
       },
       {
         "kind": "api",
-        "sourceProject": "counter-swarm-defense",
-        "path": "backend/routes/auth.js:20",
+        "sourceProject": "AIDisasterResponseCoordinator",
+        "path": "backend/src/routes/authRoutes.js:8",
         "route": "/me",
-        "originApp": "government-public-sector/inparkdigitalassistant"
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicHealthEpidemiologyTracker",
+        "path": "backend/routes/auth.js:31",
+        "route": "/me",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISchoolSafetyThreatAssessment",
+        "path": "server/routes/auth.js:70",
+        "route": "/me",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIWildfirePredictionResponse",
+        "path": "backend/src/governance/authRoutes.js:32",
+        "route": "/me",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICitizenchatbot",
+        "path": "backend/routes/auth.js:69",
+        "route": "/me",
+        "originApp": "government-public-sector/election-integrity-monitor"
       },
       {
         "kind": "page",
@@ -4428,16 +4491,51 @@
       {
         "kind": "api",
         "sourceProject": "AIElectionIntegrityMonitor",
-        "path": "server/routes/auth.js:61",
+        "path": "server/routes/auth.js:62",
         "route": "/me",
         "originApp": "government-public-sector/election-integrity-monitor"
       },
       {
         "kind": "api",
         "sourceProject": "AIElectionPollWorkerOps",
-        "path": "backend/routes/auth.js:67",
+        "path": "backend/routes/auth.js:5",
         "route": "/me",
         "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInparkdigitalassistant",
+        "path": "backend/src/routes/auth.js:59",
+        "route": "/me",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicTransitOptimizer",
+        "path": "backend/src/routes/auth.js:51",
+        "route": "/me",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "backend/routes/auth.js:57",
+        "route": "/me",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIUrbanPlanningZoningSimulator",
+        "path": "server/routes/auth.js:14",
+        "route": "/me",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "counter-swarm-defense",
+        "path": "backend/routes/auth.js:54",
+        "route": "/me",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
   },
@@ -4468,34 +4566,8 @@
     ]
   },
   {
-    "name": "No AI Form Filling Assistance For Permits Licenses Page",
-    "canonicalKey": "ai assistance filling for form licenses no permits",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/NoAiFormFillingAssistanceForPermitsLicensesPage"
-    ],
-    "sourceProjects": [
-      "AICitizenchatbot"
-    ],
-    "consolidatedFromApps": [
-      "government-public-sector/election-integrity-monitor"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICitizenchatbot",
-        "path": "frontend/src/pages/NoAiFormFillingAssistanceForPermitsLicensesPage.jsx",
-        "route": "/NoAiFormFillingAssistanceForPermitsLicensesPage",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      }
-    ]
-  },
-  {
     "name": "No Accessibility Wcag Audits And Voice First Inter Page",
-    "canonicalKey": "accessibility and audits first inter no voice wcag",
+    "canonicalKey": "accessibility and audit first inter no voice wcag",
     "aliases": [],
     "kinds": [
       "page"
@@ -4515,6 +4587,32 @@
         "sourceProject": "AICitizenchatbot",
         "path": "frontend/src/pages/NoAccessibilityWcagAuditsAndVoiceFirstInterPage.jsx",
         "route": "/NoAccessibilityWcagAuditsAndVoiceFirstInterPage",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "No AI Form Filling Assistance For Permits Licenses Page",
+    "canonicalKey": "ai assistance filling for form license no permit",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoAiFormFillingAssistanceForPermitsLicensesPage"
+    ],
+    "sourceProjects": [
+      "AICitizenchatbot"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICitizenchatbot",
+        "path": "frontend/src/pages/NoAiFormFillingAssistanceForPermitsLicensesPage.jsx",
+        "route": "/NoAiFormFillingAssistanceForPermitsLicensesPage",
         "originApp": "government-public-sector/election-integrity-monitor"
       }
     ]
@@ -4755,7 +4853,7 @@
   },
   {
     "name": "No Webhooks For Carrier Or Government API Pushes",
-    "canonicalKey": "api carrier for government no or pushe webhooks",
+    "canonicalKey": "api carrier for government no or pushe webhook",
     "aliases": [],
     "kinds": [
       "page"
@@ -4781,7 +4879,7 @@
   },
   {
     "name": "Notification Routes Exist But No Sms Email Deliver Page",
-    "canonicalKey": "but deliver email exist no notification routes sms",
+    "canonicalKey": "but deliver email exist no notification route sms",
     "aliases": [],
     "kinds": [
       "page"
@@ -4899,6 +4997,32 @@
     ]
   },
   {
+    "name": "Offline Checkins",
+    "canonicalKey": "checkin offline",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/offline-checkins"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "backend/routes/operationsWorkflow.js:11",
+        "route": "/offline-checkins",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
     "name": "Permit Eligibility",
     "canonicalKey": "eligibility permit",
     "aliases": [],
@@ -4955,7 +5079,7 @@
       {
         "kind": "api",
         "sourceProject": "AICitizenchatbot",
-        "path": "backend/routes/chatbotNew.js:302",
+        "path": "backend/routes/chatbotNew.js:305",
         "route": "/permit-guide",
         "originApp": "government-public-sector/election-integrity-monitor"
       },
@@ -4970,7 +5094,7 @@
   },
   {
     "name": "Permits Csv",
-    "canonicalKey": "csv permits",
+    "canonicalKey": "csv permit",
     "aliases": [],
     "kinds": [
       "api"
@@ -5250,19 +5374,29 @@
       "api"
     ],
     "routes": [
+      "/public-alerts/:alertId/queue",
       "/queue"
     ],
     "sourceProjects": [
-      "AIElectionIntegrityMonitor"
+      "AIElectionIntegrityMonitor",
+      "AIWildfirePredictionResponse"
     ],
     "consolidatedFromApps": [
+      "government-public-sector/disaster-response-coordinator",
       "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "AIWildfirePredictionResponse",
+        "path": "backend/src/governance/routes.js:320",
+        "route": "/public-alerts/:alertId/queue",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIElectionIntegrityMonitor",
-        "path": "server/routes/reviewWorkflow.js:6",
+        "path": "server/routes/reviewWorkflow.js:12",
         "route": "/queue",
         "originApp": "government-public-sector/election-integrity-monitor"
       }
@@ -5296,7 +5430,7 @@
   },
   {
     "name": "Rag Over City Ordinances Faqs And Council Minutes Page",
-    "canonicalKey": "and city council faqs minutes ordinances over rag",
+    "canonicalKey": "and city council faqs minute ordinance over rag",
     "aliases": [],
     "kinds": [
       "page"
@@ -5351,13 +5485,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "backend/routes/notifications.js:45",
-        "route": "/:id/read",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AICitizenchatbot",
         "path": "backend/routes/notifications.js:76",
         "route": "/:id/read",
@@ -5369,6 +5496,13 @@
         "path": "backend/routes/notifications.js:45",
         "route": "/:id/read",
         "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "backend/routes/notifications.js:45",
+        "route": "/:id/read",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
   },
@@ -5658,6 +5792,62 @@
     ]
   },
   {
+    "name": "Review",
+    "canonicalKey": "review",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/:id/reviews",
+      "/action-proposals/:proposalId/review",
+      "/documents/:documentId/review",
+      "/suppressions/:id/review"
+    ],
+    "sourceProjects": [
+      "AICitizenchatbot",
+      "AICustoms",
+      "AIWildfirePredictionResponse",
+      "counter-swarm-defense"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/disaster-response-coordinator",
+      "government-public-sector/election-integrity-monitor",
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIWildfirePredictionResponse",
+        "path": "backend/src/governance/routes.js:188",
+        "route": "/action-proposals/:proposalId/review",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICitizenchatbot",
+        "path": "backend/routes/governedService.js:59",
+        "route": "/documents/:documentId/review",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICustoms",
+        "path": "src/routes/governedCases.js:35",
+        "route": "/:id/reviews",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "counter-swarm-defense",
+        "path": "backend/routes/triage.js:209",
+        "route": "/suppressions/:id/review",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
     "name": "Review Signoff",
     "canonicalKey": "review signoff",
     "aliases": [],
@@ -5768,7 +5958,7 @@
   },
   {
     "name": "Rules Translate",
-    "canonicalKey": "rules translate",
+    "canonicalKey": "rule translate",
     "aliases": [],
     "kinds": [
       "api",
@@ -5802,8 +5992,34 @@
     ]
   },
   {
+    "name": "Runtime Config Js",
+    "canonicalKey": "config js runtime",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/runtime-config.js"
+    ],
+    "sourceProjects": [
+      "AICustoms"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICustoms",
+        "path": "src/server.js:24",
+        "route": "/runtime-config.js",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
     "name": "Sanctions Agent",
-    "canonicalKey": "agent sanctions",
+    "canonicalKey": "agent sanction",
     "aliases": [],
     "kinds": [
       "page"
@@ -5829,7 +6045,7 @@
   },
   {
     "name": "Sanctions Lacks AI Risk Screening Agent",
-    "canonicalKey": "agent ai lacks risk sanctions screening",
+    "canonicalKey": "agent ai lack risk sanction screening",
     "aliases": [],
     "kinds": [
       "page"
@@ -5855,7 +6071,7 @@
   },
   {
     "name": "Sanctions Screening Agent",
-    "canonicalKey": "agent sanctions screening",
+    "canonicalKey": "agent sanction screening",
     "aliases": [],
     "kinds": [
       "page"
@@ -6013,7 +6229,7 @@
       {
         "kind": "api",
         "sourceProject": "AICitizenchatbot",
-        "path": "backend/routes/chatbotNew.js:81",
+        "path": "backend/routes/chatbotNew.js:84",
         "route": "/service-finder",
         "originApp": "government-public-sector/election-integrity-monitor"
       },
@@ -6054,7 +6270,7 @@
   },
   {
     "name": "Services Csv",
-    "canonicalKey": "csv services",
+    "canonicalKey": "csv service",
     "aliases": [],
     "kinds": [
       "api"
@@ -6080,7 +6296,7 @@
   },
   {
     "name": "Shipments Lacks AI Delay Prediction",
-    "canonicalKey": "ai delay lacks prediction shipments",
+    "canonicalKey": "ai delay lack prediction shipment",
     "aliases": [],
     "kinds": [
       "page"
@@ -6100,6 +6316,32 @@
         "sourceProject": "AICustoms",
         "path": "client/src/App.jsx:76",
         "route": "/gap/shipments-lacks-ai-delay-prediction",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Signoffs",
+    "canonicalKey": "signoff",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cases/:id/signoffs"
+    ],
+    "sourceProjects": [
+      "AIElectionIntegrityMonitor"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElectionIntegrityMonitor",
+        "path": "server/routes/reviewWorkflow.js:49",
+        "route": "/cases/:id/signoffs",
         "originApp": "government-public-sector/election-integrity-monitor"
       }
     ]
@@ -6178,32 +6420,6 @@
         "sourceProject": "AIElectionIntegrityMonitor",
         "path": "server/routes/aiNew.js:474",
         "route": "/state-sos-feed",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      }
-    ]
-  },
-  {
-    "name": "Supplies Page",
-    "canonicalKey": "supplies",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/SuppliesPage"
-    ],
-    "sourceProjects": [
-      "AIElectionPollWorkerOps"
-    ],
-    "consolidatedFromApps": [
-      "government-public-sector/election-integrity-monitor"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/pages/SuppliesPage.js",
-        "route": "/SuppliesPage",
         "originApp": "government-public-sector/election-integrity-monitor"
       }
     ]
@@ -6374,8 +6590,34 @@
       {
         "kind": "page",
         "sourceProject": "AICustoms",
-        "path": "src/routes/tariffOptimize.js:58",
+        "path": "src/routes/tariffOptimize.js:59",
         "route": "/tariff-optimize",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Tenants",
+    "canonicalKey": "tenant",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/tenants"
+    ],
+    "sourceProjects": [
+      "AICitizenchatbot"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICitizenchatbot",
+        "path": "backend/routes/governedService.js:21",
+        "route": "/tenants",
         "originApp": "government-public-sector/election-integrity-monitor"
       }
     ]
@@ -6595,6 +6837,114 @@
     ]
   },
   {
+    "name": "Transition",
+    "canonicalKey": "transition",
+    "aliases": [
+      "Transitions"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/:id/transition",
+      "/cases/:caseRef/transition",
+      "/cases/:id/transition",
+      "/cases/:id/transitions",
+      "/workspaces/:workspaceId/assignments/:assignmentId/transition"
+    ],
+    "sourceProjects": [
+      "AIBuildingSafetyInspector",
+      "AICustoms",
+      "AIDisasterResponseCoordinator",
+      "AIElectionIntegrityMonitor",
+      "AIFactoryFloorSafetyMonitor",
+      "AIPersonalSafetyLoneWorkerMonitor",
+      "AIPublicHealthEpidemiologyTracker",
+      "AIPublicTransitOptimizer",
+      "AISchoolSafetyThreatAssessment",
+      "AISmartCityTrafficSignal"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor",
+      "government-public-sector/disaster-response-coordinator",
+      "government-public-sector/election-integrity-monitor",
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/safetyLifecycle.js:22",
+        "route": "/:id/transition",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFactoryFloorSafetyMonitor",
+        "path": "backend/src/governance/routerFactory.js:128",
+        "route": "/cases/:id/transitions",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
+        "path": "backend/src/routes/safetyWorkflow.js:57",
+        "route": "/cases/:caseRef/transition",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDisasterResponseCoordinator",
+        "path": "backend/src/routes/coordinationRoutes.js:115",
+        "route": "/workspaces/:workspaceId/assignments/:assignmentId/transition",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicHealthEpidemiologyTracker",
+        "path": "backend/governance/routerFactory.js:225",
+        "route": "/cases/:id/transitions",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISchoolSafetyThreatAssessment",
+        "path": "server/governance/routerFactory.js:225",
+        "route": "/cases/:id/transitions",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICustoms",
+        "path": "src/routes/governedCases.js:55",
+        "route": "/:id/transition",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElectionIntegrityMonitor",
+        "path": "server/routes/reviewWorkflow.js:66",
+        "route": "/cases/:id/transition",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPublicTransitOptimizer",
+        "path": "backend/src/governance/routerFactory.js:225",
+        "route": "/cases/:id/transitions",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "backend/routes/trafficWorkflow.js:13",
+        "route": "/cases/:id/transition",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
     "name": "Translate",
     "canonicalKey": "translate",
     "aliases": [],
@@ -6801,10 +7151,10 @@
     ]
   },
   {
-    "name": "User",
+    "name": "Users",
     "canonicalKey": "user",
     "aliases": [
-      "Users"
+      "User"
     ],
     "kinds": [
       "api",
@@ -6833,13 +7183,6 @@
         "originApp": "government-public-sector/disaster-response-coordinator"
       },
       {
-        "kind": "api",
-        "sourceProject": "AISmartCityTrafficSignal",
-        "path": "backend/routes/auth.js:78",
-        "route": "/users",
-        "originApp": "government-public-sector/inparkdigitalassistant"
-      },
-      {
         "kind": "model",
         "sourceProject": "AIElectionIntegrityMonitor",
         "path": "server/models/User.js",
@@ -6849,9 +7192,23 @@
       {
         "kind": "api",
         "sourceProject": "AIElectionPollWorkerOps",
-        "path": "backend/routes/auth.js:78",
+        "path": "backend/routes/auth.js:6",
         "route": "/users",
         "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "backend/routes/auth.js:7",
+        "route": "/users",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISmartCityTrafficSignal",
+        "path": "backend/routes/auth.js:69",
+        "route": "/users",
+        "originApp": "government-public-sector/inparkdigitalassistant"
       }
     ]
   },
