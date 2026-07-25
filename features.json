@@ -183,11 +183,42 @@
   {
     "name": "AI Accessibility Gap Analyze",
     "canonicalKey": "accessibility ai analyze gap",
-    "aliases": [
-      "AI Accessibility Gap Analyze Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/accessibility-gap-analyze"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIAccessibilityGapAnalyzePage.js",
+        "route": "/ai/accessibility-gap-analyze",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:63",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Accessibility Gap Analyze Page",
+    "canonicalKey": "accessibility ai analyze gap",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -201,17 +232,36 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:63",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIAccessibilityGapAnalyzePage.js",
         "route": "/AIAccessibilityGapAnalyzePage",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Anti Disinformation Quiz Generator",
+    "canonicalKey": "ai anti disinformation generator quiz",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/disinformation-quiz-generate"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIDisinformationQuizPage.js",
+        "route": "/ai/disinformation-quiz-generate",
         "originApp": "government-public-sector/election-integrity-monitor"
       }
     ]
@@ -303,11 +353,42 @@
   {
     "name": "AI Ballot Routing",
     "canonicalKey": "ai ballot routing",
-    "aliases": [
-      "AI Ballot Routing Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/ballot-routing"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIBallotRoutingPage.js",
+        "route": "/ai/ballot-routing",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:55",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Ballot Routing Page",
+    "canonicalKey": "ai ballot routing",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -321,13 +402,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:55",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIBallotRoutingPage.js",
@@ -339,11 +413,42 @@
   {
     "name": "AI Chain Of Custody Anomaly",
     "canonicalKey": "ai anomaly chain custody of",
-    "aliases": [
-      "AI Chain Of Custody Anomaly Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/chain-of-custody-anomaly"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIChainOfCustodyAnomalyPage.js",
+        "route": "/ai/chain-of-custody-anomaly",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:69",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Chain Of Custody Anomaly Page",
+    "canonicalKey": "ai anomaly chain custody of",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -356,13 +461,6 @@
       "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:69",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
       {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
@@ -411,11 +509,42 @@
   {
     "name": "AI Equipment Reallocate",
     "canonicalKey": "ai equipment reallocate",
-    "aliases": [
-      "AI Equipment Reallocate Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/equipment-reallocate"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIEquipmentReallocatePage.js",
+        "route": "/ai/equipment-reallocate",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:52",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Equipment Reallocate Page",
+    "canonicalKey": "ai equipment reallocate",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -429,13 +558,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:52",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIEquipmentReallocatePage.js",
@@ -445,13 +567,78 @@
     ]
   },
   {
+    "name": "AI Executive Brief",
+    "canonicalKey": "ai brief executive",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/executive-brief"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIExecutiveBriefPage.js",
+        "route": "/ai/executive-brief",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:67",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
     "name": "AI Incident Report Draft",
     "canonicalKey": "ai draft incident report",
-    "aliases": [
-      "AI Incident Report Draft Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/incident-report-draft"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIIncidentReportDraftPage.js",
+        "route": "/ai/incident-report-draft",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:72",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Incident Report Draft Page",
+    "canonicalKey": "ai draft incident report",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -465,13 +652,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:72",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIIncidentReportDraftPage.js",
@@ -483,11 +663,42 @@
   {
     "name": "AI Incident Triage",
     "canonicalKey": "ai incident triage",
-    "aliases": [
-      "AI Incident Triage Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/incident-triage"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIIncidentTriagePage.js",
+        "route": "/ai/incident-triage",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:53",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Incident Triage Page",
+    "canonicalKey": "ai incident triage",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -501,13 +712,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:53",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIIncidentTriagePage.js",
@@ -519,11 +723,42 @@
   {
     "name": "AI Language Support Plan",
     "canonicalKey": "ai language plan support",
-    "aliases": [
-      "AI Language Support Plan Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/language-support-plan"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AILanguageSupportPlanPage.js",
+        "route": "/ai/language-support-plan",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:61",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Language Support Plan Page",
+    "canonicalKey": "ai language plan support",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -537,13 +772,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:61",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AILanguageSupportPlanPage.js",
@@ -555,11 +783,42 @@
   {
     "name": "AI Line Wait Forecast",
     "canonicalKey": "ai forecast line wait",
-    "aliases": [
-      "AI Line Wait Forecast Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/line-wait-forecast"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AILineWaitForecastPage.js",
+        "route": "/ai/line-wait-forecast",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:51",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Line Wait Forecast Page",
+    "canonicalKey": "ai forecast line wait",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -573,13 +832,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:51",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AILineWaitForecastPage.js",
@@ -591,11 +843,42 @@
   {
     "name": "AI Observer Coordination",
     "canonicalKey": "ai coordination observer",
-    "aliases": [
-      "AI Observer Coordination Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/observer-coordination"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIObserverCoordinationPage.js",
+        "route": "/ai/observer-coordination",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:57",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Observer Coordination Page",
+    "canonicalKey": "ai coordination observer",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -609,13 +892,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:57",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIObserverCoordinationPage.js",
@@ -627,11 +903,42 @@
   {
     "name": "AI Poll Worker Schedule",
     "canonicalKey": "ai poll schedule worker",
-    "aliases": [
-      "AI Poll Worker Schedule Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/poll-worker-schedule"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIPollWorkerSchedulePage.js",
+        "route": "/ai/poll-worker-schedule",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:54",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Poll Worker Schedule Page",
+    "canonicalKey": "ai poll schedule worker",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -645,13 +952,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:54",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIPollWorkerSchedulePage.js",
@@ -663,11 +963,42 @@
   {
     "name": "AI Post Election Report",
     "canonicalKey": "ai election post report",
-    "aliases": [
-      "AI Post Election Report Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/post-election-report"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIPostElectionReportPage.js",
+        "route": "/ai/post-election-report",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:73",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Post Election Report Page",
+    "canonicalKey": "ai election post report",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -681,13 +1012,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:73",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIPostElectionReportPage.js",
@@ -699,11 +1023,42 @@
   {
     "name": "AI Recount Readiness Brief",
     "canonicalKey": "ai brief readiness recount",
-    "aliases": [
-      "AI Recount Readiness Brief Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/recount-readiness-brief"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIRecountReadinessBriefPage.js",
+        "route": "/ai/recount-readiness-brief",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:68",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Recount Readiness Brief Page",
+    "canonicalKey": "ai brief readiness recount",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -717,13 +1072,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:68",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIRecountReadinessBriefPage.js",
@@ -735,11 +1083,42 @@
   {
     "name": "AI Rules Translate",
     "canonicalKey": "ai rule translate",
-    "aliases": [
-      "AI Rules Translate Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/rules-translate"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIRulesTranslatePage.js",
+        "route": "/ai/rules-translate",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:62",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Rules Translate Page",
+    "canonicalKey": "ai rule translate",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -753,13 +1132,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:62",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AIRulesTranslatePage.js",
@@ -771,11 +1143,42 @@
   {
     "name": "AI Supply Resupply Plan",
     "canonicalKey": "ai plan resupply supply",
-    "aliases": [
-      "AI Supply Resupply Plan Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/supply-resupply-plan"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AISupplyResupplyPlanPage.js",
+        "route": "/ai/supply-resupply-plan",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:56",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Supply Resupply Plan Page",
+    "canonicalKey": "ai plan resupply supply",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -789,13 +1192,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:56",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AISupplyResupplyPlanPage.js",
@@ -807,11 +1203,42 @@
   {
     "name": "AI Training Gap Analysis",
     "canonicalKey": "ai analysis gap training",
-    "aliases": [
-      "AI Training Gap Analysis Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/training-gap-analysis"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AITrainingGapAnalysisPage.js",
+        "route": "/ai/training-gap-analysis",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:58",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Training Gap Analysis Page",
+    "canonicalKey": "ai analysis gap training",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -824,13 +1251,6 @@
       "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:58",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
       {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
@@ -845,9 +1265,12 @@
     "canonicalKey": "a ai copilot q training",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "navigation"
     ],
-    "routes": [],
+    "routes": [
+      "/ai/training-qa-copilot"
+    ],
     "sourceProjects": [
       "AIElectionPollWorkerOps"
     ],
@@ -855,6 +1278,13 @@
       "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AITrainingQaCopilotPage.js",
+        "route": "/ai/training-qa-copilot",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIElectionPollWorkerOps",
@@ -893,11 +1323,42 @@
   {
     "name": "AI Transmission Anomaly",
     "canonicalKey": "ai anomaly transmission",
-    "aliases": [
-      "AI Transmission Anomaly Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/transmission-anomaly"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AITransmissionAnomalyPage.js",
+        "route": "/ai/transmission-anomaly",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:70",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Transmission Anomaly Page",
+    "canonicalKey": "ai anomaly transmission",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -911,13 +1372,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:70",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
         "path": "frontend/src/pages/AITransmissionAnomalyPage.js",
@@ -929,11 +1383,42 @@
   {
     "name": "AI Voter Communication Draft",
     "canonicalKey": "ai communication draft voter",
-    "aliases": [
-      "AI Voter Communication Draft Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/voter-communication-draft"
+    ],
+    "sourceProjects": [
+      "AIElectionPollWorkerOps"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/pages/AIVoterCommunicationDraftPage.js",
+        "route": "/ai/voter-communication-draft",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIElectionPollWorkerOps",
+        "path": "frontend/src/components/Sidebar.js:71",
+        "route": "",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Voter Communication Draft Page",
+    "canonicalKey": "ai communication draft voter",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -946,13 +1431,6 @@
       "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIElectionPollWorkerOps",
-        "path": "frontend/src/components/Sidebar.js:71",
-        "route": "",
-        "originApp": "government-public-sector/election-integrity-monitor"
-      },
       {
         "kind": "page",
         "sourceProject": "AIElectionPollWorkerOps",
@@ -1680,11 +2158,13 @@
     "canonicalKey": "categorize feedback",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/categorize-feedback",
+      "/categorize-feedback?tool=categorize-feedback",
       "categorize-feedback"
     ],
     "sourceProjects": [
@@ -1694,6 +2174,13 @@
       "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICitizenchatbot",
+        "path": "frontend/src/components/CategorizeFeedback.js:54",
+        "route": "/categorize-feedback?tool=categorize-feedback",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
       {
         "kind": "api",
         "sourceProject": "AICitizenchatbot",
@@ -4076,6 +4563,32 @@
     ]
   },
   {
+    "name": "Hs Code Classification",
+    "canonicalKey": "classification code hs",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/classify"
+    ],
+    "sourceProjects": [
+      "AICustoms"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/election-integrity-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICustoms",
+        "path": "client/src/pages/Classify.jsx:1",
+        "route": "/classify",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      }
+    ]
+  },
+  {
     "name": "Incident Report Draft",
     "canonicalKey": "draft incident report",
     "aliases": [],
@@ -5027,11 +5540,13 @@
     "canonicalKey": "eligibility permit",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/permit-eligibility",
+      "/permit-eligibility?tool=permit-eligibility",
       "permit-eligibility"
     ],
     "sourceProjects": [
@@ -5041,6 +5556,13 @@
       "government-public-sector/election-integrity-monitor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICitizenchatbot",
+        "path": "frontend/src/components/PermitEligibility.js:54",
+        "route": "/permit-eligibility?tool=permit-eligibility",
+        "originApp": "government-public-sector/election-integrity-monitor"
+      },
       {
         "kind": "api",
         "sourceProject": "AICitizenchatbot",
